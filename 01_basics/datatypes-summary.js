@@ -31,3 +31,28 @@ const myFunction = function(){
 }
 
 console.log(typeof id);
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Memory : Stack (Primitive) , Heap (Non-Primitive)
+
+let myYoutubename = "ishaanoberoi"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(anothername);
+console.log(myYoutubename);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl" 
+}
+
+let userTwo = userOne
+
+userTwo.email = "ishaan@google.com" // this is the way to access objects 
+
+console.log(userOne.email);
+console.log(userTwo.email);
